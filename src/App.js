@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-
-function App() {
+import React, { useState, useEffect } from "react"
+import AppHeader from "./header.js"
+import Search from "./search.js";
+import JobCards from "./joblist.js"
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="body">
+        <div className="main-container">
+          <AppHeader/>
+          <Search/>
+          <JobCards/>
+        </div>
+      </div>
     </div>
   );
 }
-
-export default App;
