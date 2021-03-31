@@ -77,7 +77,12 @@
     font-size: 16px;
     line-height: 16px
 }
+body{
+  display: flex;
+  justify-content: center;
+}
 .body{
+
     width: 1440px;
     height: 1620px;
     background-image: url("./assets/desktop/bg-pattern-header.svg");
@@ -207,7 +212,7 @@
     -ms-transform: translateX(25px);
     transform: translateX(25px);
   }
-  
+
   /* Rounded sliders */
   .slider.round {
     border-radius: 34px;
@@ -216,9 +221,8 @@
   .slider.round:before {
     border-radius: 50%;
   }
-  /* Customize the label (the container) */
+/* Customize the label (the container) */
 .container {
-
     position: relative;
     margin-right: 24px;
     cursor: pointer;
@@ -245,7 +249,6 @@
     position: absolute;
     top: 0;
     left: 0;
- 
     height: 24px;
     width: 24px;
     border-radius: 3px;

@@ -8,10 +8,10 @@ export default function AppHeader() {
             <img src={logo} />
             <div className="toggle-container">
                 <img src={sun} />
-                <div className="switch">
-                    <input type="checkbox" />
+                <label className="switch">
+                    <input type="checkbox"/>
                     <span className="slider round"></span>
-                </div>
+                </label>
                 <img src={moon} />
             </div>
         </div>

@@ -14,7 +14,7 @@ export default function JobCards(){
     }
     return(
         <div className="jobs-main-container">
-             {jobs && jobs.map(job =>(<Job job={job}/>))}
+            {jobs && jobs.map(job =>(<Job job={job}/>))}
         </div>
     )
 }
